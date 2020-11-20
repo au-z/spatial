@@ -1,0 +1,34 @@
+{
+  "name": "@auzmartist/spatial",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "webpack --env.prod --config ./build/webpack.config.js --progress --hide-modules",
+    "build:watch": "webpack --watch --env.prod --config ./build/webpack.config.js --progress --hide-modules",
+    "dev": "webpack-dev-server --env.dev --config ./build/webpack.config.js --open --hot --quiet",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@auzmartist/cam-el": "^0.1.3",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.0.3",
+    "hybrids": "^4.3.3",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^1.1.3",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "typescript": "^3.8.3",
+    "vue": "^3.0.2",
+    "vue-loader": "^16.0.0-rc.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
