@@ -1,9 +1,9 @@
 export default class CanvasPoint {
-	private x: number
-	private y: number
 	private r: number
+	public x: number
+	public y: number
 
-	constructor(x, y, r) {
+	constructor(x, y, r = 5) {
 		this.x = x
 		this.y = y
 		this.r = r

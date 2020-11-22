@@ -15,7 +15,5 @@ const SpatialHeader: Hybrids<CustomElement> = {
 	</cam-box>`.style(styles)
 }
 
-console.log(SpatialHeader)
-
 define('spatial-header', SpatialHeader)
 export default SpatialHeader
